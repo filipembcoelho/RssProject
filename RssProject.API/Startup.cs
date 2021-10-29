@@ -23,6 +23,7 @@ namespace RssProject.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<INewsFeedService, NewsFeedService>();
+            services.AddSingleton<ILinkedListService, LinkedListService>();
 
             services.AddAutoMapper(typeof(AutoMapperConfiguration));
 
