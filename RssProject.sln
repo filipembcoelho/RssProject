@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssProject.API", "RssProject.API\RssProject.API.csproj", "{8A66365A-FF1F-48A8-9E6F-AB42493E2DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RssProject.Application", "RssProject.Application\RssProject.Application.csproj", "{A9F86B60-D59C-4B93-9959-C8BE8E09A47C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8A66365A-FF1F-48A8-9E6F-AB42493E2DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A66365A-FF1F-48A8-9E6F-AB42493E2DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A66365A-FF1F-48A8-9E6F-AB42493E2DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F86B60-D59C-4B93-9959-C8BE8E09A47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F86B60-D59C-4B93-9959-C8BE8E09A47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F86B60-D59C-4B93-9959-C8BE8E09A47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F86B60-D59C-4B93-9959-C8BE8E09A47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
