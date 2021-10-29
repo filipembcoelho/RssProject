@@ -12,4 +12,8 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RssProject.Application\RssProject.Application.csproj" />
+  </ItemGroup>
+
 </Project>
